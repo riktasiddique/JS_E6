@@ -16,3 +16,6 @@ const large = [55,66,88,99];
 const small = [1,2,3,5,6,69,9,8];
 const max = Math.min(...large, ...small);
 console.log(max);
+const large1 = [55,66,88,99];
+const max1 = Math.min(...large);
+console.log(max1);
